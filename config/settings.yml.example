@@ -1,0 +1,10 @@
+mount_path:     /mount/path
+secret:         super-puper-secret
+
+redis:
+  url:          redis://host:port/db
+
+capistrano:
+  application:  faye_server
+  deploy_to:    /path/to/deploy
+  repo_url:     repo_url
